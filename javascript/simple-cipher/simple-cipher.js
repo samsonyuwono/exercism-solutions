@@ -1,5 +1,5 @@
 var alphabet = "abcdefghijklmnopqrstuvwxyz";
-var Cipher = function(key) {
+var Cipher = function(keyc) {
   if (!/^[a-z]+$/.test(key)) {
     throw Error("Bad key");
   }
