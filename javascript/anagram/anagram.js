@@ -1,4 +1,4 @@
-function anagram(subject, list) {
+function anagram(subject) {
   const lowerCaseSorted = subject
     .toLowerCase()
     .split("")
